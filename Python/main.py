@@ -8,9 +8,6 @@ class Skibidi:
         self.hp = hp
 
     
-
-        
-
 def promptCreation() -> Skibidi:
     type = input("type of skibidi: ")
     speed = float(input("speed of skibidi: "))
