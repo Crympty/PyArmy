@@ -9,7 +9,7 @@ class Skibidi:
         return cls(type, speed, hp)
 
 
-def promptCreation() -> Skibidi:
+def prompt_creation() -> Skibidi:
     default:bool = input("want use default? True if yes, anything else is no").strip().lower() == "true" 
     if(default == True):
         return Skibidi.intInit("default", 20, 100)
