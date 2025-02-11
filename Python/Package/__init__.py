@@ -1,4 +1,4 @@
-from . import army_creator 
+from . import army_creator
 from . import army_manager
 # from . is importing from current package
 

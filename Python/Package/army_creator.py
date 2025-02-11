@@ -7,6 +7,7 @@ class Skibidi:
     @classmethod
     def intInit(cls, type: str, speed: int, hp: int):
         return cls(type, speed, hp)
+    
 
 
 def prompt_creation() -> Skibidi:

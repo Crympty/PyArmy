@@ -1,6 +1,5 @@
-# from multipledispatch import dispatch 
-from Python.Package.army_creator import prompt_creation, Skibidi
-from Python.Package import army_manager
+from Package.army_creator import prompt_creation, Skibidi
+from Package import army_manager
 import numpy as np
 
 def main():
@@ -25,7 +24,7 @@ if __name__ == "__main__":
         
         match choice:
             case 1:
-                army_manager.prompt_state_choice()
+                army_manager.calcMaxStat(army_manager.prompt_stat_choice())
                 
                 pass
             case 2:
